@@ -24,3 +24,7 @@ func run():
   for number in array_name:
     do something(number)
 
+if the array is Vector2, array_name = [Vector2(element1.x, element1.y), Vector2(element2.x,element2.y), etc.]
+
+for number in array_name:
+  do something(number.x, number.y)
