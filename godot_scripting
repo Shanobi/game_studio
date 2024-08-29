@@ -2,3 +2,8 @@
 
 func function_name(argument1, argument2, ...):
   
+## while loops
+
+func function_name():
+  while parameter1.vector1 < parameter2.vector1 - 1:
+    parameter1.vector1 += 1
