@@ -1,0 +1,14 @@
+# Plot
+
+- The game will start with a blank/black screen and wait 5 minutes for either input or time expiration.
+- Once input or expiration has occurred, transition to pong.
+  - It will allow the control of the "ball" at first around the screen, but then it will move on its own and paddles will appear, 
+    one being "highlighted" for control.
+- After a "successful" rally (~10 back and forth, or ~5 mins time elapsed), transition to snake.
+
+- Snake --> platformer
+- Platformer --> "primative metal slug"
+
+
+# After beating the "levels", the games can be unlocked for individual play.
+  - i.e. pong, snake, etc.
