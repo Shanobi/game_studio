@@ -16,4 +16,11 @@ for number in range(x):
   - i.e where number = 6
     [0, 1, 2, 3, 4, 5]
 
+## Array + For loop
+
+var array_name = [element1, element2, etc.]
+
+func run():
+  for number in array_name:
+    do something(number)
 
