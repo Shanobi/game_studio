@@ -1,0 +1,4 @@
+# Syntax
+
+func function_name(argument1, argument2, ...):
+  
