@@ -2,8 +2,18 @@
 
 func function_name(argument1, argument2, ...):
   
-## while loops
+## while loops (for when you don't know how many times you need to iterate)
 
 func function_name():
   while parameter1.vector1 < parameter2.vector1 - 1:
     parameter1.vector1 += 1
+
+## For loops (for a predefined iteration)
+
+for number in range(x):
+  do something
+  - This will iterate x - 1 times
+  - i.e where number = 6
+    [0, 1, 2, 3, 4, 5]
+
+
