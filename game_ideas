@@ -6,7 +6,8 @@
     one being "highlighted" for control.
 - After a "successful" rally (~10 back and forth, or ~5 mins time elapsed), transition to snake.
 
-- Snake --> platformer
+- Snake --> dropping blocks to avoid
+- Blocks become static --> platformer
 - Platformer --> "primative metal slug"
 
 ## End game?
