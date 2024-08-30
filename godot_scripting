@@ -82,6 +82,11 @@ var inventory = {
   "sword" : 1,
 }
 
+### Dictionary calcs
+
+func add_item(item_name, amount):
+  inventory[item_name] += amount
+
 ## return
   - will return a value if the function allows it
   - to get the center of a cell
