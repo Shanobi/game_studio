@@ -54,6 +54,15 @@ for number in array_name:
     while crates:
       crates.pop_back()
   ```
+
+### Array indices
+var array_name = [element1, element2, ...]
+
+func do_calculation():
+  perform_function(arrary_name[index])
+  
+  $$$$ The indices are number starting at 0 for first element and -1 for last element (if counting backwards)
+
 ## return
   - will return a value if the function allows it
   - to get the center of a cell
