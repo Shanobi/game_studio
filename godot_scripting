@@ -29,6 +29,22 @@ if the array is Vector2, array_name = [Vector2(element1.x, element1.y), Vector2(
 for number in array_name:
   do something(number.x, number.y)
 
+### Appending and removing values from arrays
+
+- append() and pop_front() or pop_back
+ - e.g. 
+
+  ```
+  var waiting_orders = []
+  var completed_orders = []
+
+  func add_order(meal_name):
+    waiting_orders.append(meal_name)
+
+  func complete_current_order():
+    var first_order = waiting_orders.pop_front()
+    completed_orders.append(first_order)
+
 ## return
   - will return a value if the function allows it
   - to get the center of a cell
