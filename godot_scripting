@@ -84,8 +84,21 @@ var inventory = {
 
 ### Dictionary calcs
 
-func add_item(item_name, amount):
-  inventory[item_name] += amount
+```func add_item(item_name, amount):
+  inventory[item_name] += amount```
+
+```
+var inventory = {
+  "healing heart" : 3,
+  "gems" : 5,
+  "sword" : 1,
+}
+
+func run():
+  for item_name in inventory:
+    print(item_name)
+```
+
 
 ## return
   - will return a value if the function allows it
