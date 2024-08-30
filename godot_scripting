@@ -63,6 +63,24 @@ func do_calculation():
   
   $$$$ The indices are number starting at 0 for first element and -1 for last element (if counting backwards)
 
+## Dictionaries
+
+A dictionary is a data structure that allows you to map pairs of values. In the pair, we call the first value a key
+  as we use it to access the second.
+
+var dictionary_name = {
+  key1: value_1,
+  key2: value_2,
+  key3: value_3,
+  #...
+}
+
+var inventory = {
+  "healing heart" : 3,
+  "gems" : 5,
+  "sword" : 1,
+}
+
 ## return
   - will return a value if the function allows it
   - to get the center of a cell
