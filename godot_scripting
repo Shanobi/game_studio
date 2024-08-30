@@ -44,7 +44,16 @@ for number in array_name:
   func complete_current_order():
     var first_order = waiting_orders.pop_front()
     completed_orders.append(first_order)
+  ```
 
+- pop_back() example:
+  ```
+  var crates = ["healing heart", "shield", "gems", "sword"]
+
+  func run():
+    while crates:
+      crates.pop_back()
+  ```
 ## return
   - will return a value if the function allows it
   - to get the center of a cell
