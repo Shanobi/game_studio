@@ -112,6 +112,18 @@ func run():
     add_unit(unit, cell)
 ```
 
+```
+var inventory = {
+  "healing heart" : 3,
+  "gems" : 5,
+  "sword" : 1,
+}
+
+func run():
+  for item_name in inventory:
+    display_item(item_name, inventory[item_name])
+```
+
 ## return
   - will return a value if the function allows it
   - to get the center of a cell
