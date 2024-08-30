@@ -66,7 +66,8 @@ func do_calculation():
 ## Dictionaries
 
 A dictionary is a data structure that allows you to map pairs of values. In the pair, we call the first value a key
-  as we use it to access the second.
+  as we use it to access the second. The keys are hashed to a whole number and used as the arrays index. To access the value you
+  call: dictionary[key] or var item_count = inventory["gems"] which will return the number of gems in the inventory.
 
 var dictionary_name = {
   key1: value_1,
