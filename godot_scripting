@@ -128,3 +128,6 @@ func run():
   - will return a value if the function allows it
   - to get the center of a cell
     - return cell * cell_size + cell_size / 2
+
+## Variable types
+  - decimal or 2D vector
