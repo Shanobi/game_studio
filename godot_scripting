@@ -131,3 +131,16 @@ func run():
 
 ## Variable types
   - decimal or 2D vector
+    - var cell_size = 50.0
+    - var cell_size = Vector2(50.0, 50.0)
+
+  - calculations:
+    ```
+    var cell_size = Vector2(50.0, 50.0)
+
+    func grid_to_world(cell):
+      return cell * cell_size + cell_size / 2
+    ```
+
+  - type hints:
+    ` var variable_name: Type = value
