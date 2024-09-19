@@ -130,6 +130,11 @@ func run():
     - return cell * cell_size + cell_size / 2
 
 ## Variable types
+  - String
+  - int for whole numbers
+  - Vector2 for vectors
+  - float for decimal
+
   - decimal or 2D vector
     - var cell_size = 50.0
     - var cell_size = Vector2(50.0, 50.0)
