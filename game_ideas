@@ -1,4 +1,4 @@
-# Plot
+# Plot - Game No. Zero
 
 - The game will start with a blank/black screen and wait 5 minutes for either input or time expiration.
 - Once input or expiration has occurred, transition to pong.
@@ -15,5 +15,12 @@
   - simple, a la Journey?
 
 
-# After beating the "levels", the games can be unlocked for individual play.
+> After beating the "levels", the games can be unlocked for individual play.
   - i.e. pong, snake, etc.
+
+# Plot - Game No. 1
+
+- Have the player start floating in black screen and begin explaining the game.
+- Ask them for their name and age.
+  - If age entered is 69, do something silly.
+- 
